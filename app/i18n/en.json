@@ -1,0 +1,84 @@
+{
+  "common": {
+    "ok": "OK!",
+    "cancel": "Cancel",
+    "back": "Back"
+  },
+  "errors": {
+    "invalidEmail": "Invalid email address."
+  },
+  "welcomeScreen": {
+    "poweredBy": "POWERED BY IGNITE",
+    "readyForLaunch": "Ready for launch.",
+    "continue": "CONTINUE"
+  },
+  "demoScreen": {
+    "howTo": "HOW TO",
+    "title": "What’s In This Stack?",
+    "tagLine": "Congratulations, you’ve got a very advanced React Native app template here.  Take advantage of this boilerplate!",
+    "reactotron": "Demo Reactotron",
+    "demoList": "Demo List",
+    "androidReactotronHint": "If this doesn't work, ensure the Reactotron desktop app is running, run adb reverse tcp:9090 tcp:9090 from your terminal, and reload the app.",
+    "iosReactotronHint": "If this doesn't work, ensure the Reactotron desktop app is running and reload app.",
+    "macosReactotronHint": "If this doesn't work, ensure the Reactotron desktop app is running and reload app.",
+    "webReactotronHint": "If this doesn't work, ensure the Reactotron desktop app is running and reload app.",
+    "windowsReactotronHint": "If this doesn't work, ensure the Reactotron desktop app is running and reload app."
+  },
+  "demoListScreen": {
+    "title": "Demo List"
+  },
+  "errorScreen": {
+    "title": "Something went wrong!",
+    "friendlySubtitle": "This is the screen that your users will see in production when an error is thrown. You'll want to customize this message (located in `app/i18n/en.json`) and probably the layout as well (`app/screens/error`). If you want to remove this entirely, check `app/app.tsx` for the <ErrorBoundary> component.",
+    "traceTitle": "Error from %{name} stack",
+    "reset": "RESET APP"
+  },
+  "storybook": {
+    "placeholder": "Placeholder",
+    "field": "Field"
+  },
+  "trip": {
+    "estimated_arrival": "2018-09-28 14:22:17",
+    "estimated_fare_min": 65,
+    "estimated_fare_max": 75,
+    "passengers_min": 1,
+    "passengers_max": 5,
+    "payment": "Amex01",
+    "dropoff_location": {
+      "name": "DFW Int'l Airport - Terminal E",
+      "street_line1": "2400 Aviation Dr",
+      "street_line2": "",
+      "city": "DFW Airport",
+      "state": "Texas",
+      "zipcode": "75261",
+      "lat": "",
+      "long": ""
+    },
+    "pickup_location": {
+      "name": "",
+      "street_line1": "449 Flora St.",
+      "street_line2": "",
+      "city": "Dallas",
+      "state": "Texas",
+      "zipcode": "75201",
+      "lat": "",
+      "long": ""
+    },
+    "notes": "Can you drop me off at AA International Bag Drop please?"
+  },
+  "driver": {
+    "name": "Steph",
+    "image": "../images/Driver_photo.png",
+    "bio": "Steph Festiculma is a graduate of Parsons New School in New York and fluent in Portugeuse, Spanish and English. Steph has been driving with Alto since 2018.",
+    "phone": ""
+  },
+  "vehicle": {
+    "license": "Alto 09",
+    "make": "2019 Volkswagen Atlas",
+    "color": "Pure White",
+    "image": "../images/Vehicle_photo.png"
+  },
+  "vibe": {
+    "name": "Vaporwave Beats"
+  }
+}
